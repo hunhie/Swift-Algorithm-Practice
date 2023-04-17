@@ -1,0 +1,1 @@
+readLine();while let N=readLine(){let n=Int(N)!;var M=[0,1,2,4];if n>3{for i in 4...n{M.append(M[i-3]+M[i-2]+M[i-1])}};print(M[n])}
